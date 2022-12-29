@@ -1,0 +1,81 @@
+{
+  "name": "@onerouter/core",
+  "version": "0.6.6",
+  "description": "OneRouter (Universal React Router) core. Unified React Router exports for React Native and React Native (for) Web projects.",
+  "main": "lib/commonjs/index",
+  "module": "lib/module/index",
+  "react-native": "lib/module/index",
+  "types": "lib/typescript/index.d.ts",
+  "author": "Science/Art/Magic",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc --skipLibCheck --noEmit",
+    "build": "bob build",
+    "lint": "eslint --ext .ts,.js,.tsx ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OneRouter/RSVP.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react router",
+    "universal",
+    "web",
+    "electron"
+  ],
+  "peerDependencies": {
+    "@expo/html-elements": "^0.2.2",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "react-native": ">=0.69.0",
+    "react-native-web": ">=0.18.0",
+    "react-router": ">=6.6.0",
+    "react-router-dom": ">=6.6.0",
+    "react-router-native": ">=6.6.0"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/react": "^17.0.5",
+    "@types/react-native": "^0.64.5",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-preset-expo": "^9.2.2",
+    "eslint": "^7.3.1",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "husky": "^4.2.0",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^2.0.1",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "react-native": ">=0.69.0",
+    "react-native-builder-bob": "^0.18.1",
+    "react-native-web": ">=0.18.0",
+    "react-router": "^6.6.0",
+    "react-router-dom": "^6.6.0",
+    "react-router-native": "^6.6.0",
+    "typescript": "^4.2.4"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      [
+        "commonjs",
+        {
+          "configFile": "./babel.config.js"
+        }
+      ],
+      "module",
+      "typescript"
+    ]
+  }
+}
