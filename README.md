@@ -30,10 +30,12 @@ In web and Electron apps, imports `react-router-dom`'s `useLinkClickHandler`.
 
 In native apps, imports `react-router-native`'s `useLinkPressHandler`.
 
-## `<Link />` Component
+## Custom
 
-A custom hybrid of the `<Link />` components in `react-router-dom` (web, Electron) and `react-router-native` (Android, iOS), with the assistance of the `<A />` component from [@expo/html-elements](https://npmjs.com/package/@expo/html-elements).
+### `<Link />` Component
 
-### Other Exports
+A custom hybrid of the `<Link />` components in `react-router-dom` (web, Electron) and `react-router-native` (Android, iOS), with the assistance of the [`<A />` component from `@expo/html-elements`](https://www.npmjs.com/package/@expo/html-elements#a) (returns HTML `<a />` tag in web/Electron, uses `Linking` API in native).
+
+## Other Exports
 
 All other components, methods, hooks, and types are re-exported from `react-router` (as you can see they are in the `react-router-dom` and `react-router-native` packages if you examine the source).
