@@ -12,7 +12,7 @@ In web, imports `react-router-dom`'s `BrowserRouter`.
 
 In native apps, imports `react-router-native`'s `MemoryRouter` (which is just re-exported from `react-router`).
 
-In Electron apps (which can't support `BrowserRouter`), imports `react-router-web`'s `MemoryRouter` (which is just re-exported from `react-router`).
+In Electron apps (which can't support `BrowserRouter`), imports `react-router-dom`'s `MemoryRouter` (which is just re-exported from `react-router`).
 
 ### `createRouter`
 
@@ -22,7 +22,7 @@ In web, imports `react-router-dom`'s `createBrowserRouter`.
 
 In native apps, imports `react-router-native`'s `createMemoryRouter` (which is just re-exported from `react-router`).
 
-In Electron apps (which can't support `createBrowserRouter`), imports `react-router-web`'s `createMemoryRouter` (which is just re-exported from `react-router`).
+In Electron apps (which can't support `createBrowserRouter`), imports `react-router-dom`'s `createMemoryRouter` (which is just re-exported from `react-router`).
 
 ### useLinkHandler
 
