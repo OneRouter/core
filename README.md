@@ -1,10 +1,14 @@
 # OneRouter Core
 
-Unified imports from React Router to support universal, single-codebase React Native/Expo apps (currently Android, iOS, web, and Electron).
+Unified imports from React Router to support universal, single-codebase React Native/Expo apps. Currently supports Android, iOS, web, and Electron (Linux, MacOS, Windows).
+
+## Install (including peerDependencies)
+
+`npm i` or `yarn add` `@onerouter/core react-router react-router-dom react-router-native @expo/html-elements`
 
 ## Aliases
 
-The following are aliases to their corresponding react-router-dom and react-router-native components/hooks/methods:
+The following are aliases to their corresponding react-router-dom and react-router-native components/methods/hooks:
 
 ### `<Router />`
 
