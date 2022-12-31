@@ -1,4 +1,5 @@
 export {
+  Link,
   NativeRouter as Router,
   createMemoryRouter as createRouter,
   createSearchParams,

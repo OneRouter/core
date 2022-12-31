@@ -1,5 +1,6 @@
 export {
   BrowserRouter as Router,
+  Link,
   createBrowserRouter as createRouter,
   createSearchParams,
   useLinkClickHandler as useLinkHandler,

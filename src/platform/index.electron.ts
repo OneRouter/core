@@ -1,4 +1,5 @@
 export {
+  Link,
   MemoryRouter as Router,
   createMemoryRouter as createRouter,
   createSearchParams,

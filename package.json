@@ -1,6 +1,6 @@
 {
   "name": "@onerouter/core",
-  "version": "0.6.6",
+  "version": "0.6.7",
   "description": "OneRouter (Universal React Router) core. Unified React Router exports for React Native and React Native (for) Web (and Electron) projects.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
