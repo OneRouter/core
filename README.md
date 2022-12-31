@@ -10,13 +10,19 @@ Unified imports from React Router to support universal, single-codebase React Na
 
 The following are aliases to their corresponding react-router-dom and react-router-native components/methods/hooks:
 
+### `<Link />`
+
+In web and Electron, imports `Link` from `react-router-dom`.
+
+In native apps, import's `Link` from `react-router-native`.
+
 ### `<Router />`
 
 In web, imports `react-router-dom`'s `BrowserRouter`.
 
-In native apps, imports `react-router-native`'s `MemoryRouter` (which is just re-exported from `react-router`).
+In native apps, exports `react-router-native`'s `MemoryRouter` (which is just re-exported from `react-router`).
 
-In Electron apps (which can't support `BrowserRouter`), imports `react-router-dom`'s `MemoryRouter` (which is just re-exported from `react-router`).
+In Electron apps (which can't support `BrowserRouter`), exports `react-router-dom`'s `MemoryRouter` (which is just re-exported from `react-router`).
 
 ### `createRouter`
 
