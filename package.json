@@ -1,6 +1,6 @@
 {
   "name": "@onerouter/core",
-  "version": "0.6.7",
+  "version": "0.6.70-pre.0",
   "description": "OneRouter (Universal React Router) core. Unified React Router exports for React Native and React Native (for) Web (and Electron) projects.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -32,14 +32,12 @@
     "electron"
   ],
   "peerDependencies": {
-    "@expo/html-elements": "^0.2.2",
-    "react": ">=18.0.0",
-    "react-dom": ">=18.0.0",
-    "react-native": ">=0.69.0",
-    "react-native-web": ">=0.18.0",
-    "react-router": ">=6.6.0",
-    "react-router-dom": ">=6.6.0",
-    "react-router-native": ">=6.6.0"
+    "react": ">=18.1.0",
+    "react-dom": ">=18.1.0",
+    "react-native": ">=0.70.5",
+    "react-native-web": ">=0.18.7",
+    "react-router-dom": ">=6.6.3-pre.0",
+    "react-router-native": ">=6.6.3-pre.0"
   },
   "devDependencies": {
     "@react-native-community/eslint-config": "^2.0.0",
@@ -54,14 +52,13 @@
     "husky": "^4.2.0",
     "prettier": "^2.2.1",
     "pretty-quick": "^2.0.1",
-    "react": ">=18.0.0",
-    "react-dom": ">=18.0.0",
-    "react-native": ">=0.69.0",
+    "react": ">=18.1.0",
+    "react-dom": ">=18.1.0",
+    "react-native": ">=0.70.5",
     "react-native-builder-bob": "^0.18.1",
-    "react-native-web": ">=0.18.0",
-    "react-router": "^6.6.0",
-    "react-router-dom": "^6.6.0",
-    "react-router-native": "^6.6.0",
+    "react-native-web": ">=0.18.7",
+    "react-router-dom": "^6.7.0",
+    "react-router-native": "^6.7.0",
     "typescript": "^4.2.4"
   },
   "react-native-builder-bob": {

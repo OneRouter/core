@@ -39,7 +39,7 @@ export type {
   Search,
   ShouldRevalidateFunction,
   To,
-} from 'react-router-dom'
+} from 'react-router-native'
 export {
   AbortedDeferredError,
   Await,
@@ -84,7 +84,7 @@ export {
   useRouteError,
   useRouteLoaderData,
   useRoutes,
-} from 'react-router-dom'
+} from 'react-router-native'
 export {
   UNSAFE_DataRouterContext,
   UNSAFE_DataRouterStateContext,
@@ -92,4 +92,4 @@ export {
   UNSAFE_LocationContext,
   UNSAFE_RouteContext,
   UNSAFE_enhanceManualRouteObjects,
-} from 'react-router-dom'
+} from 'react-router-native'

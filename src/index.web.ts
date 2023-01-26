@@ -1,3 +1,4 @@
+export * from './shared'
 export {
   BrowserRouter as Router,
   Link,
@@ -5,5 +6,5 @@ export {
   createSearchParams,
   useLinkClickHandler as useLinkHandler,
   useSearchParams,
-} from "react-router-dom";
-export type { ParamKeyValuePair, URLSearchParamsInit } from "react-router-dom";
+} from 'react-router-dom'
+export type { ParamKeyValuePair, URLSearchParamsInit } from 'react-router-dom'

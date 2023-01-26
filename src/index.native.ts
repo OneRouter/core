@@ -1,3 +1,4 @@
+export * from './shared'
 export {
   Link,
   NativeRouter as Router,
@@ -5,8 +6,8 @@ export {
   createSearchParams,
   useLinkPressHandler as useLinkHandler,
   useSearchParams,
-} from "react-router-native";
+} from 'react-router-native'
 export type {
   ParamKeyValuePair,
   URLSearchParamsInit,
-} from "react-router-native";
+} from 'react-router-native'

@@ -44,8 +44,10 @@ In native apps, imports `react-router-native`'s `useLinkPressHandler`.
 
 ### `<Link />` Component
 
-A custom hybrid of the `<Link />` components in `react-router-dom` (web, Electron) and `react-router-native` (Android, iOS), with the assistance of the [`<A />` component from `@expo/html-elements`](https://www.npmjs.com/package/@expo/html-elements#a) (returns HTML `<a />` tag in web/Electron, uses `Linking` API in native).
+Currently exports `Link` from `react-router-dom` for web and Electron, and from `react-router-native` for native apps.
+
+TODO: Create custom Link component which uses HTML `<a />` elements in web and Electron, and React Native's `<Pressable />` in iOS/Android.  
 
 ## Other Exports
 
-All other components, methods, hooks, and types are re-exported from `react-router` (as you can see they are in the `react-router-dom` and `react-router-native` packages if you examine the source).
+All other components, methods, hooks, and types are re-exported from `react-router-dom` for web and Electron, and `react-router-native` for Android/iOS.
